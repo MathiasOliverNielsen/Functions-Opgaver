@@ -33,6 +33,7 @@ function makeExchange(myEuroRate, myDollarRate, myDanishAmount) {
   showResult(myEuros, myDollars, myDanishAmount);
 }
 // Function 2 beregning af valutaveksling
-function calculateExchange(myAmount, myRate) {
-  return myAmount / myRate;
+function calculateExchange(ammountDK, exchangeRate) {
+  let result = ammountDK * exchangeRate;
+  return result;
 }
